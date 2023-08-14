@@ -1,0 +1,38 @@
+body{
+  background-color: rgba(103, 128, 168, 0.765);
+}
+.bodi {
+  margin: 4%;
+  font-family: "Courier New", Courier, monospace;
+  
+}
+.pic {
+  height: 150px;
+  width: 150px;
+  border: 6px solid rgb(209, 212, 219);
+  border-radius: 20px;
+}
+.card {
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #58ad9c;
+  border-bottom: 8px solid rgb(186, 183, 180);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px rgb(8, 86, 85);
+  transition: width 1s;
+}
+.card:hover{
+  width :600px;
+  background-color: rgb(80, 85, 85);
+}
+h1{
+  color: rgb(54, 33, 4);
+  display:flex;
+  justify-content: center;
+}
+.side{
+margin:0px right 0px 0px;
+}
